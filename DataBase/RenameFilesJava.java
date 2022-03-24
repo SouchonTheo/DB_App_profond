@@ -21,9 +21,8 @@ public class RenameFilesJava {
                 }
                 if(extension.equals("png")){
                     String nouveau = premierNum+".png";
-                    boolean k = f.renameTo(new File(nouveau));
-                    System.out.println(k);
-                    System.out.println(ancien+" renommé => "+nouveau);
+                    boolean k = f.renameTo(new File(dossier.getAbsolutePath() + "/" + nouveau));
+                    System.out.println("k = "+ k+ "  " + ancien+" renommé => "+nouveau);
                 }
                 else{
                 System.out.println(ancien+" n'est pas un fichier png");
