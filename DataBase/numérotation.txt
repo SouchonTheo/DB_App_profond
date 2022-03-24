@@ -1,0 +1,10 @@
+Plaine : 0000 - 0199
+Ocean : 0200 - 0399
+foret : 0400 - 0599
+foret fleurie : 0600 - 0799
+taiga : 0800 - 0999
+jungle : 1000 - 1199
+marais : 1200 - 1399
+desert : 1400 - 1599
+montagne enneigée : 1600 - 1799
+savane : 1800 - 1999
